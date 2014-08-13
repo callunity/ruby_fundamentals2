@@ -25,3 +25,7 @@ end
 cohort_display(students)
 
 # 5. 
+students.delete(:cohort2)
+cohort_display(students)
+
+# 6.
