@@ -14,8 +14,19 @@ grocery_list.each do |item|
 end
 
 puts
-#3. 
+#3 . 
 def glist_print(glist)
 	glist.each { |item| puts "* #{item}"}
 end
 glist_print(grocery_list)
+
+puts
+# 4.
+puts grocery_list.length
+
+puts
+# 5.
+if grocery_list.include? "bananas" == true
+	puts "You need to pick up bananas."
+else puts "You don't need to pick up bananas."
+end
